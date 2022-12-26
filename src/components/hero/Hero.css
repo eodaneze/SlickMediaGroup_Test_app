@@ -1,0 +1,21 @@
+.all-hero {
+  width: 100%;
+  height: 550px;
+  background: url(../../assets/Rectangle.png);
+}
+.hero-content h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 94px;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+.hero-content h1 span {
+  display: block;
+}
+.all-container{
+    padding: 40px 77px;
+  }

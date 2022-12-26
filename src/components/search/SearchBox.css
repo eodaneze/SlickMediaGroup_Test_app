@@ -1,0 +1,12 @@
+.search-content label {
+  display: block;
+}
+.search-content input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 100%;
+  height: 54px;
+
+  border: 1px solid #000000;
+}

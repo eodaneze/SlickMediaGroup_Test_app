@@ -1,0 +1,29 @@
+.all-nav {
+  background: #292929;
+  width: 1440px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+ 
+}
+
+.all-container{
+  padding: 40px 77px;
+}
+.nav-logo{
+  margin-top: 30px;
+}
+.nav-logo h5{
+  border: 1px solid #fff;
+  padding: 8px;
+  color: #fff;
+}
+
+@media(max-width:800px){
+  .nav-logo h5{
+    text-align: center;
+  }
+}

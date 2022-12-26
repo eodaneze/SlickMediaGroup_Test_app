@@ -1,0 +1,40 @@
+.movie-image {
+  background-color: #000;
+  margin: 0 20px;
+  padding: 20px;
+  width: 100%;
+  height: 300px;
+}
+.movie-image img{
+    width: 100%;
+    height: 250px;
+}
+.movie-image h5{
+    color: white;
+    text-align: center;
+}
+.movie-content{
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.movie-content::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+@media(max-width: 800px){
+  .movie-content{
+    grid-template-columns: repeat(2, 1fr);
+ 
+  }
+}
+@media(max-width: 600px){
+  .movie-content{
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+}
